@@ -18,7 +18,7 @@
                 <Image Source="\Assets\AppIcons\uteuwp.png" Height="128" Width="128"></Image>
                 <TextBlock HorizontalAlignment="Stretch" FontSize="24" FontWeight="SemiBold" TextAlignment="Center">UltraTextEdit UWP Plus</TextBlock>
                 <HyperlinkButton Style="{StaticResource DefaultHyperlinkButtonStyle}" HorizontalAlignment="Center">jpb</HyperlinkButton>
-                <Button Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Center">Download</Button>
+                <Button Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Center" Click="download">Download</Button>
             </StackPanel>
         </Grid>
         <Grid Grid.Column="1"></Grid>
