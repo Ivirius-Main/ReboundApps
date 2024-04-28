@@ -16,6 +16,38 @@
           "ImagePath": "ms-appx:///Assets/icon.png",
           "ImageIconPath": "ms-appx:///Assets/icon.png",
           "HideItem": true
+        },
+        {
+          "UniqueId": "ReboundApps.Views.HomePage",
+          "Title": "Home",
+          "Subtitle": "Home",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
+        },
+        {
+          "UniqueId": "ReboundApps.Views.AppsPage",
+          "Title": "Apps",
+          "Subtitle": "Apps",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
+        },
+        {
+          "UniqueId": "ReboundApps.Views.Rebound_Highlights",
+          "Title": "Rebound Highlights",
+          "Subtitle": "Rebound Highlights",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
+        },
+        {
+          "UniqueId": "ReboundApps.Views.LibraryPage",
+          "Title": "Library",
+          "Subtitle": "Library",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
         }
       ]
     }
