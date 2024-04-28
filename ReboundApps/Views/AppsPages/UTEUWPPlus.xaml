@@ -9,6 +9,18 @@
     mc:Ignorable="d">
 
     <Grid>
-        <TextBlock Text="page coming soon"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Style="{StaticResource GridCardPanel}">
+            <StackPanel>
+                <Image></Image>
+                <TextBlock FontSize="24" FontWeight="SemiBold">UltraTextEdit UWP Plus</TextBlock>
+                <HyperlinkButton Style="{StaticResource DefaultHyperlinkButtonStyle}">jpb</HyperlinkButton>
+                <Button Style="{StaticResource AccentButtonStyle}">Download</Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1"></Grid>
     </Grid>
 </Page>
