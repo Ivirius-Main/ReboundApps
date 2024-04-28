@@ -32,7 +32,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Remove="HomePage.xaml" />
     <None Remove="Views\AppsPage.xaml" />
     <None Remove="Views\LibraryPage.xaml" />
     <None Remove="Views\Rebound Higlights.xaml" />
@@ -71,11 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\AppsPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="HomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
