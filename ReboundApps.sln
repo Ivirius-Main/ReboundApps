@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReboundApps", "ReboundApps\ReboundApps.csproj", "{EBEECDDB-0DE4-452F-A55B-7A494A46588B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49976549-C439-4B31-A3EC-DC749B79729A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|ARM64.Build.0 = Debug|ARM64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|x64.ActiveCfg = Debug|x64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|x64.Build.0 = Debug|x64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|x64.Deploy.0 = Debug|x64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|x86.ActiveCfg = Debug|x86
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|x86.Build.0 = Debug|x86
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Debug|x86.Deploy.0 = Debug|x86
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|ARM64.ActiveCfg = Release|ARM64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|ARM64.Build.0 = Release|ARM64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|ARM64.Deploy.0 = Release|ARM64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|x64.ActiveCfg = Release|x64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|x64.Build.0 = Release|x64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|x64.Deploy.0 = Release|x64
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|x86.ActiveCfg = Release|x86
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|x86.Build.0 = Release|x86
+		{EBEECDDB-0DE4-452F-A55B-7A494A46588B}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8A1EB85-42B5-47A3-9E42-45C9ABA281C4}
+	EndGlobalSection
+EndGlobal
