@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,26 +12,20 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
-using ReboundApps.Views.AppsPages;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace ReboundApps.Views
+namespace ReboundApps.Views.AppsPages
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class HomePage : Page
+    public sealed partial class UTEUWPPlus : Page
     {
-        public HomePage()
+        public UTEUWPPlus()
         {
             this.InitializeComponent();
-        }
-
-        private void UTEUWPPlus_open(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(UTEUWPPlus));
         }
     }
 }

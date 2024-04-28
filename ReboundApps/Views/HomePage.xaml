@@ -52,5 +52,8 @@
                 </StackPanel>
             </Border>
         </Border>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button Content="UTE UWP Plus" Click="UTEUWPPlus_open"/>
+        </StackPanel>
     </Grid>
 </Page>

@@ -33,6 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\AppsPage.xaml" />
+    <None Remove="Views\AppsPages\UTEUWPPlus.xaml" />
     <None Remove="Views\LibraryPage.xaml" />
     <None Remove="Views\Rebound Highlights.xaml" />
   </ItemGroup>
@@ -70,6 +71,11 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\AppsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\AppsPages\UTEUWPPlus.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
