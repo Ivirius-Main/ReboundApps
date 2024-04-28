@@ -34,7 +34,7 @@
   <ItemGroup>
     <None Remove="Views\AppsPage.xaml" />
     <None Remove="Views\LibraryPage.xaml" />
-    <None Remove="Views\Rebound Higlights.xaml" />
+    <None Remove="Views\Rebound Highlights.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="$(ApplicationManifest)" />
@@ -64,7 +64,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Views\Rebound Higlights.xaml">
+    <Page Update="Views\Rebound Highlights.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
