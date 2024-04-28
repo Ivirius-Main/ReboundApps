@@ -13,12 +13,12 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0" Style="{StaticResource GridCardPanel}">
+        <Grid Grid.Column="0" Style="{StaticResource GridCardPanel}" Padding="0,0,10,10">
             <StackPanel>
-                <Image></Image>
-                <TextBlock FontSize="24" FontWeight="SemiBold">UltraTextEdit UWP Plus</TextBlock>
-                <HyperlinkButton Style="{StaticResource DefaultHyperlinkButtonStyle}">jpb</HyperlinkButton>
-                <Button Style="{StaticResource AccentButtonStyle}">Download</Button>
+                <Image Source="\Assets\AppIcons\uteuwp.png" Height="128" Width="128"></Image>
+                <TextBlock HorizontalAlignment="Stretch" FontSize="24" FontWeight="SemiBold" TextAlignment="Center">UltraTextEdit UWP Plus</TextBlock>
+                <HyperlinkButton Style="{StaticResource DefaultHyperlinkButtonStyle}" HorizontalAlignment="Center">jpb</HyperlinkButton>
+                <Button Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Center">Download</Button>
             </StackPanel>
         </Grid>
         <Grid Grid.Column="1"></Grid>

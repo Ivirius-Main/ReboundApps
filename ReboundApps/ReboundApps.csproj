@@ -32,6 +32,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="Assets\AppIcons\uteuwp.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="Views\AppsPage.xaml" />
     <None Remove="Views\AppsPages\UTEUWPPlus.xaml" />
     <None Remove="Views\LibraryPage.xaml" />
