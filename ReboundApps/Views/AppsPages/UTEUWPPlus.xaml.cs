@@ -29,6 +29,13 @@ namespace ReboundApps.Views.AppsPages
             this.InitializeComponent();
         }
 
+        public List<string> Pictures = new List<string>()
+        {
+            "https://github.com/jpbandroid/AppStore-Resources/blob/main/UTEUWP-Plus/Screenshot%202024-04-29%20061330.png?raw=true",
+            "https://github.com/jpbandroid/AppStore-Resources/blob/main/UTEUWP-Plus/Screenshot%202024-04-29%20061347.png?raw=true",
+            "https://github.com/jpbandroid/AppStore-Resources/blob/main/UTEUWP-Plus/Screenshot%202024-04-29%20061417.png?raw=true"
+        };
+
         private async void download(object sender, RoutedEventArgs e)
         {
             string name = Environment.UserName;
