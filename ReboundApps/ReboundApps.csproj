@@ -34,6 +34,8 @@
   <ItemGroup>
     <Content Remove="Assets\AppIcons\IviriusTextEditor.png" />
     <Content Remove="Assets\AppIcons\uteuwp.png" />
+    <Content Remove="Assets\icon.ico" />
+    <Content Remove="Assets\icon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\AppsPage.xaml" />
