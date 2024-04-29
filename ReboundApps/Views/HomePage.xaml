@@ -53,16 +53,18 @@
             </Border>
         </Border>
         <StackPanel Orientation="Horizontal" Grid.Row="1" Padding="8">
-            <Button Click="UTEUWPPlus_open" Width="Auto" Height="Auto">
-                <StackPanel Orientation="Vertical">
-                    <Image Source="Assets/AppIcons/uteuwp.png"/>
-                    <TextBlock FontSize="24" FontWeight="SemiBold">UTE UWP+</TextBlock>
+            <Button Click="UTEUWPPlus_open">
+                <Grid>
+                    <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/AppIcons/uteuwp.png" Height="64" Width="64"/>
+                    <TextBlock FontSize="16" FontWeight="SemiBold">UTE UWP+</TextBlock>
                 </StackPanel>
+                </Grid>
             </Button>
-            <Button Click="IVRFree_open" Width="Auto" Height="Auto">
-                <StackPanel Orientation="Vertical">
-                    <Image Source="Assets/AppIcons/uteuwp.png"/>
-                    <TextBlock FontSize="24" FontWeight="SemiBold">Ivirius Text Editor Free</TextBlock>
+            <Button Click="IVRFree_open">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/AppIcons/IviriusTextEditor.png" Height="64" Width="64"/>
+                    <TextBlock FontSize="16" FontWeight="SemiBold">Ivirius Text Editor Free</TextBlock>
                 </StackPanel>
             </Button>
         </StackPanel>
