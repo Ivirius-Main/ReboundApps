@@ -33,5 +33,10 @@ namespace ReboundApps.Views
         {
             Frame.Navigate(typeof(UTEUWPPlus));
         }
+
+        private void IVRFree_open(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(IVRFree));
+        }
     }
 }
