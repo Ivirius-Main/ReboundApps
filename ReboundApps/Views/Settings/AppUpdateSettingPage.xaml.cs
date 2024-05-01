@@ -10,7 +10,7 @@ public sealed partial class AppUpdateSettingPage : Page
     public AppUpdateSettingPage()
     {
         this.InitializeComponent();
-        CurrentVersion = $"Current Version v{App.Current.AppVersion}";
+        CurrentVersion = $"Current version v{App.Current.AppVersion}";
 
         TxtLastUpdateCheck.Text = Settings.LastUpdateCheck;
 
@@ -30,7 +30,7 @@ public sealed partial class AppUpdateSettingPage : Page
         BtnCheckUpdate.IsEnabled = false;
         BtnReleaseNote.Visibility = Visibility.Collapsed;
         BtnDownloadUpdate.Visibility = Visibility.Collapsed;
-        StatusCard.Header = "Checking for new version";
+        StatusCard.Header = "Checking for updates";
         if (NetworkHelper.IsNetworkAvailable())
         {
             try
@@ -46,11 +46,11 @@ public sealed partial class AppUpdateSettingPage : Page
                     BtnReleaseNote.Visibility = Visibility.Visible;
                     BtnDownloadUpdate.Visibility = Visibility.Visible;
                     ChangeLog = update.Changelog;
-                    StatusCard.Header = $"We found a new version {update.TagName} Created at {update.CreatedAt} and Published at {update.PublishedAt}";
+                    StatusCard.Header = $"ReboundApps {update.TagName}\nreleased {update.PublishedAt}";
                 }
                 else
                 {
-                    StatusCard.Header = "You are using latest version";
+                    StatusCard.Header = "You are using the latest version";
                 }
             }
             catch (Exception ex)
@@ -62,7 +62,7 @@ public sealed partial class AppUpdateSettingPage : Page
         }
         else
         {
-            StatusCard.Header = "Error Connection";
+            StatusCard.Header = "Connection error. Check your connection to the Internet and try again.";
         }
         PrgLoading.IsActive = false;
         BtnCheckUpdate.IsEnabled = true;
@@ -71,14 +71,14 @@ public sealed partial class AppUpdateSettingPage : Page
     private async void GoToUpdateAsync()
     {
         //Todo: Change Uri
-        await Launcher.LaunchUriAsync(new Uri("https://github.com/WinUICommunity/WinUICommunity/releases"));
+        await Launcher.LaunchUriAsync(new Uri("https://github.com/Ivirius-Main/ReboundApps/releases"));
     }
 
     private async void GetReleaseNotesAsync()
     {
         ContentDialog dialog = new ContentDialog()
         {
-            Title = "Release Note",
+            Title = "Release notes",
             CloseButtonText = "Close",
             Content = new ScrollViewer
             {
@@ -97,5 +97,3 @@ public sealed partial class AppUpdateSettingPage : Page
         await dialog.ShowAsyncQueue();
     }
 }
-
-
