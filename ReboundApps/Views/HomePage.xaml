@@ -14,44 +14,85 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <Border
-    Grid.Row="0"
-    Height="400"
-    CornerRadius="8,0,0,0">
-            <Border.Background>
-                <ImageBrush ImageSource="Assets/icon.ico" Stretch="UniformToFill" />
-            </Border.Background>
-            <Border CornerRadius="8,0,0,0">
+        <FlipView SelectedIndex="0" Height="400">
+
+            <Border
+        Grid.Row="0"
+        Height="400"
+        CornerRadius="8,0,0,0">
                 <Border.Background>
-                    <RadialGradientBrush>
-                        <GradientStop Offset="0" Color="#2F000000" />
-                        <GradientStop Offset="1" Color="#8F000000" />
-                    </RadialGradientBrush>
+                    <ImageBrush Stretch="UniformToFill" />
                 </Border.Background>
-                <StackPanel
-            Margin="16"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Center"
-            Background="Transparent">
-                    <TextBlock FontSize="18" Text="Coming soon" />
-                    <TextBlock
-                FontSize="28"
-                FontWeight="SemiBold"
-                Text="Apps" />
-                    <TextBlock
-                FontSize="18"
-                Opacity=".8"
-                Text="Apps. Applications." />
-                    <Button
-                Height="36"
-                Margin="0,6,0,0"
-                Padding="30,6"
+                <Border CornerRadius="8,0,0,0">
+                    <Border.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Offset="0" Color="#2F000000" />
+                            <GradientStop Offset="1" Color="#8F000000" />
+                        </RadialGradientBrush>
+                    </Border.Background>
+                    <StackPanel
+                Margin="16"
                 HorizontalAlignment="Left"
-                Background="Transparent"
-                Content="Download Now" />
-                </StackPanel>
+                VerticalAlignment="Center"
+                Background="Transparent">
+                        <TextBlock FontSize="18" Text="Coming soon" />
+                        <TextBlock
+                    FontSize="28"
+                    FontWeight="Bold"
+                    Text="Apps" />
+                        <TextBlock
+                    FontSize="18"
+                    Opacity=".8"
+                    Text="Apps. Applications." />
+                        <Button
+                    Height="36"
+                    Margin="0,6,0,0"
+                    Padding="30,6"
+                    HorizontalAlignment="Left"
+                    Background="Transparent"
+                    Content="Download Now" />
+                    </StackPanel>
+                </Border>
             </Border>
-        </Border>
+            <Border
+Grid.Row="0"
+Height="400"
+CornerRadius="8,0,0,0">
+                <Border.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/AppStore-Logo.ico" Stretch="UniformToFill" />
+                </Border.Background>
+                <Border CornerRadius="8,0,0,0">
+                    <Border.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Offset="0" Color="#2F000000" />
+                            <GradientStop Offset="1" Color="#8F000000" />
+                        </RadialGradientBrush>
+                    </Border.Background>
+                    <StackPanel
+        Margin="16"
+        HorizontalAlignment="Left"
+        VerticalAlignment="Center"
+        Background="Transparent">
+                        <TextBlock FontSize="18" Text="Coming soon" />
+                        <TextBlock
+            FontSize="28"
+            FontWeight="Bold"
+            Text="Apps" />
+                        <TextBlock
+            FontSize="18"
+            Opacity=".8"
+            Text="Apps. Applications." />
+                        <Button
+            Height="36"
+            Margin="0,6,0,0"
+            Padding="30,6"
+            HorizontalAlignment="Left"
+            Background="Transparent"
+            Content="Download Now" />
+                    </StackPanel>
+                </Border>
+            </Border>
+        </FlipView>
         <StackPanel Orientation="Horizontal" Grid.Row="1" Padding="8">
             <Button Click="UTEUWPPlus_open">
                 <Grid>
