@@ -94,11 +94,14 @@ CornerRadius="8,0,0,0">
             </Border>
         </FlipView>
         <StackPanel Orientation="Horizontal" Grid.Row="1" Padding="8">
-            <Button Click="UTEUWPPlus_open">
+            <Button Click="UTEUWPPlus_open" Padding="15">
                 <Grid>
-                    <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
                     <Image Source="/Assets/AppIcons/uteuwp.png" Height="64" Width="64"/>
-                    <TextBlock FontSize="16" FontWeight="SemiBold">UTE UWP+</TextBlock>
+                    <StackPanel>
+                        <TextBlock FontSize="16" FontWeight="SemiBold">UTE UWP+</TextBlock>
+                        <TextBlock>UltraTextEdit UWP Plus</TextBlock>
+                    </StackPanel>
                 </StackPanel>
                 </Grid>
             </Button>
